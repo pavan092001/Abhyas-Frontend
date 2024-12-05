@@ -1,0 +1,64 @@
+/* Toolbar styles */
+.rbc-toolbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Remove default or custom backgrounds from date cells */
+.rbc-month-view .rbc-date-cell {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent !important; /* Remove blue background */
+  /* color: #000; /* Keep text color black */
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  //background-color: transparent !important; /* Ensure no background */
+  color: #000; /* Set text color */
+  height: 50px; /* Adjust the cell size if needed */
+  width: 50px; /* Adjust the cell size if needed */
+  border-radius: 4px; /* Optional: Keep rounded corners */
+  //transition: background-color 0.2s;
+  padding: 0; /* Ensure no padding interferes */
+  margin: auto; /* Center content inside */
+}
+.rbc-button-link:hover ~ .rbc-date-cell{
+  background-color:lightblue;
+}
+
+.rbc-month-view:hover {
+  background-color: transparent !important;
+}
+
+/* Remove active date background */
+/* .rbc-selected {
+  background-color: transparent !important;
+} */
+
+/* Remove today's date highlight */
+.rbc-today {
+  background-color: lightblue !important;
+}
+
+/* Toolbar span styles */
+.rbc-toolbar span {
+  flex: 1;
+  text-align: center;
+  font-size: 1.2rem;
+}
+.rbc-date-cell:hover ~ .rbc-day-bg{
+  background-color:lightblue;
+
+}
+.rbc-date-cell:hover{
+  background-color:lightblue;
+}
+
+
+.rbc-day-bg:hover{
+  background-color:lightblue;
+}
